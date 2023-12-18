@@ -11,8 +11,6 @@
 
 > Folder structure options and naming conventions for software projects
 
-### A typical top-level directory layout
-
     .
     ├── build                   # Compiled files (alternatively `dist`)
     ├── docs                    # Documentation files (alternatively `doc`)
@@ -22,11 +20,21 @@
     ├── LICENSE
     └── README.md
 
-> **A:** Because you don't want to test the code, you want to test the *program*.
+> Structure
 
     .
     ├── ...
     ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
+
+> Structure
+
+    .
+    ├── ...
+    ├── com.package.project     # Test files (alternatively `spec` or `tests`)
     │   ├── benchmarks          # Load and stress tests
     │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
     │   └── unit                # Unit tests
