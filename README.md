@@ -37,14 +37,26 @@
     ├── main
     │   ├── java.com.package.project
     │   │   ├── configuration
+    │   │   │   └── SecurityConfiguration.java
     │   │   ├── controller
+    │   │   │   ├── Test.java
+    │   │   │   └── User.java
     │   │   ├── dto
+    │   │   │   ├── request
+    │   │   │   │   ├── UserDto.java
+    │   │   │   │   └── UserDtoUpdate.java
+    │   │   │   └── response
+    │   │   │       └── UserDtoRes.java
     │   │   ├── entity
+    │   │   │   ├── repository
+    │   │   │   │   └── UserRepository.java
+    │   │   │   └── User.java
     │   │   ├── service
+    │   │   │   └── UserService.java
     │   │   └── utils
-    │   │   │   └── Utils.java
+    │   │       └── Utils.java
     │   └── resources
-    │       └── application.properties      # db connection config
+    │       └── application.properties                # db connection config
     └── ...
 
 <hr>
