@@ -9,36 +9,15 @@
 
 ### Structure
 
-> Folder structure options and naming conventions for software projects
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-
-> Structure
-
-    .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
-
-> Structure
+> Folder structure
 
     .
     ├── ...
     ├── main
     │   ├── java.com.package.project
     │   │   ├── configuration
-    │   │   │   └── SecurityConfiguration.java
-    │   │   ├── controller
+    │   │   │   └── SecurityConfiguration.java    # Cors config
+    │   │   ├── controller                        # Endpoint controller
     │   │   │   ├── Test.java
     │   │   │   └── User.java
     │   │   ├── dto
@@ -47,16 +26,16 @@
     │   │   │   │   └── UserDtoUpdate.java
     │   │   │   └── response
     │   │   │       └── UserDtoRes.java
-    │   │   ├── entity
-    │   │   │   ├── repository
+    │   │   ├── entity                            # ORM model
+    │   │   │   ├── repository                    # ORM additional CRUD function
     │   │   │   │   └── UserRepository.java
     │   │   │   └── User.java
-    │   │   ├── service
+    │   │   ├── service                           # ORM CRUD        
     │   │   │   └── UserService.java
     │   │   └── utils
     │   │       └── Utils.java
     │   └── resources
-    │       └── application.properties                # db connection config
+    │       └── application.properties            # db connection config
     └── ...
 
 <hr>

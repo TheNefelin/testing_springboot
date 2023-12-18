@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.francisco.prueba.entity.User;
 
-// iterface  no se puede definir artibuto
+// iterface no se puede definir artibuto
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
     // name debe ser === name de User
