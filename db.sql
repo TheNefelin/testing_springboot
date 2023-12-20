@@ -1,4 +1,9 @@
 
+SELECT * FROM brand;
+SELECT * FROM privilege;
+SELECT * FROM product;
+SELECT * FROM rol;
+SELECT * FROM sale;
 SELECT * FROM user;
 
 INSERT INTO user 
