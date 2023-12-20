@@ -39,3 +39,42 @@
     └── ...
 
 <hr>
+
+VAriables de entorno
+
+Path: %JAVA_HOME%\bin
+JAVA_HOME: C:\jdk-17.0.2
+
+java --version
+
+Extencion pack java vsCode
+
+https://start.spring.io/
+
+Paquetes
+-Lombok
+-MySQL
+-SqlServer
+-SpringWeb
+-SpringSecurity
+-JPA (orm)
+
+anotaciones = directiva = decorador
+@restcontroller
+
+// archivo de configuracion
+application.properties
+
+dto = Data Transfer Object
+
+Rol, Privilegios, Productos, Ventas y Marca
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
