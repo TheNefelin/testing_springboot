@@ -20,13 +20,13 @@
     │   │   ├── controller                        # Endpoint controller
     │   │   │   ├── Test.java
     │   │   │   └── User.java
-    │   │   ├── dto
+    │   │   ├── dto                               # Data transfer object, similar to object model
     │   │   │   ├── request
     │   │   │   │   ├── UserDto.java
     │   │   │   │   └── UserDtoUpdate.java
     │   │   │   └── response
     │   │   │       └── UserDtoRes.java
-    │   │   ├── entity                            # ORM model
+    │   │   ├── entity                            # ORM object model
     │   │   │   ├── repository                    # ORM additional CRUD function
     │   │   │   │   └── UserRepository.java
     │   │   │   └── User.java
