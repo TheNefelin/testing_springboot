@@ -2,10 +2,23 @@
 
 ### First Steps
 
+* Environment Variables
+> Path: %JAVA_HOME%\bin
+> JAVA_HOME: C:\jdk-17.0.2
+> java --version
+
 [doc](https://spring.io/guides/gs/maven/) [new project](https://start.spring.io/)
 
-* create project maven
-* Run and Debug
+### Some package
+* Lombok
+* MySQL
+* SqlServer
+* SpringWeb
+* SpringSecurity
+* JPA (orm)
+
+> create project maven
+> Run and Debug
 
 ### Structure
 
@@ -29,43 +42,21 @@
     │   │   ├── entity                            # ORM object model
     │   │   │   ├── repository                    # ORM additional CRUD function
     │   │   │   │   └── UserRepository.java
+    │   │   │   ├── Brand.java
+    │   │   │   ├── privilege.java
+    │   │   │   ├── Product.java
+    │   │   │   ├── Rol.java
+    │   │   │   ├── Sale.java
     │   │   │   └── User.java
     │   │   ├── service                           # ORM CRUD        
     │   │   │   └── UserService.java
     │   │   └── utils
     │   │       └── Utils.java
     │   └── resources
-    │       └── application.properties            # db connection config
+    │       └── application.properties            # Config file
     └── ...
 
 <hr>
-
-VAriables de entorno
-
-Path: %JAVA_HOME%\bin
-JAVA_HOME: C:\jdk-17.0.2
-
-java --version
-
-Extencion pack java vsCode
-
-https://start.spring.io/
-
-Paquetes
--Lombok
--MySQL
--SqlServer
--SpringWeb
--SpringSecurity
--JPA (orm)
-
-anotaciones = directiva = decorador
-@restcontroller
-
-// archivo de configuracion
-application.properties
-
-dto = Data Transfer Object
 
 Rol, Privilegios, Productos, Ventas y Marca
 
