@@ -69,3 +69,12 @@ Rol, Privilegios, Productos, Ventas y Marca
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
+✔️Java 8
+✔️Spring Boot
+✔️JWT (autenticación y autorización)
+✔️JPA 
+
+✔️OpenApi (Documentación del los Microservicios)
+✔️Swagger (Documentación de los Microservicios)
+✔️Ejercicio en procesos de CI-CD, integración continua

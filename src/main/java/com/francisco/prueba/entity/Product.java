@@ -27,4 +27,8 @@ public class Product {
   
   @Column(nullable = false)
   public Integer price;
+
+    
+  @Column(nullable = false)
+  public Integer id_brand;
 }

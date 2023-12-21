@@ -1,9 +1,14 @@
 package com.francisco.prueba.entity;
 
-import java.sql.Date;
+import java.util.Date;
+
+import org.springframework.data.annotation.CreatedDate;
+
+import com.francisco.prueba.configuration.SecurityConfiguration;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EntityListeners;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -15,6 +20,7 @@ import lombok.Setter;
 @Table(name = "sale")
 @Getter
 @Setter
+// @EntityListeners(SecurityConfiguration.class)
 public class Sale {
   
   @Id
@@ -30,6 +36,6 @@ public class Sale {
   @Column(nullable = false)
   public Integer prod_count;
 
-  // @Column(nullable = false)
-  // public Date create;
+  @CreatedDate
+  public Date date_new;
 }
