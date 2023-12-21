@@ -70,11 +70,10 @@ Rol, Privilegios, Productos, Ventas y Marca
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-✔️Java 8
-✔️Spring Boot
-✔️JWT (autenticación y autorización)
-✔️JPA 
-
-✔️OpenApi (Documentación del los Microservicios)
-✔️Swagger (Documentación de los Microservicios)
-✔️Ejercicio en procesos de CI-CD, integración continua
+- [x] Java 8
+- [x] Spring Boot
+- [x] JWT (autenticación y autorización)
+- [x] JPA 
+- [x] OpenApi (Documentación del los Microservicios)
+- [x] Swagger (Documentación de los Microservicios)
+- [x] Ejercicio en procesos de CI-CD, integración continua
