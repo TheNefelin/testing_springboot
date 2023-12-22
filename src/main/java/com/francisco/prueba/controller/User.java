@@ -28,7 +28,6 @@ public class User {
         this.userService = userService;
     }
     
-    // el ResponseEntity<Boolean> se retorna en ResponseEntity<>(true
     @PostMapping(path = "/post")
     public ResponseEntity<Boolean> create(@RequestBody UserDto userDto) {
         this.userService.create(userDto);

@@ -30,7 +30,7 @@
     │   ├── java.com.package.project
     │   │   ├── configuration
     │   │   │   └── SecurityConfiguration.java    # Cors config
-    │   │   ├── controller                        # Endpoint controller
+    │   │   ├── controller                        # Endpoint controller using only DTO and Service
     │   │   │   ├── Test.java
     │   │   │   └── User.java
     │   │   ├── dto                               # Data transfer object, similar to object model
@@ -48,7 +48,7 @@
     │   │   │   ├── Rol.java
     │   │   │   ├── Sale.java
     │   │   │   └── User.java
-    │   │   ├── service                           # ORM CRUD        
+    │   │   ├── service                           # ORM CRUD using Entity and DTO
     │   │   │   └── UserService.java
     │   │   └── utils
     │   │       └── Utils.java
